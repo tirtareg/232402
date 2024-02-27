@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,15 +62,14 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
-<link href="site_libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet">
-<script src="site_libs/bsTable-3.3.7/bootstrapTable.js"></script>
 <script src="site_libs/font-awesome-5.13.0/js/script.js"></script>
 
 
@@ -76,13 +81,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lulusan.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Lulusan</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lulusan.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Lulusan</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -91,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Untirta Dalam Angka: semester genap TA 2023/2024</a> 
@@ -155,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -178,9 +183,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<p>Rekapitulasi lulusan Universitas Sultan Ageng Tirtayasa jenjang Diploma, Sarjana, dan Pascasarjana sampai dengan September 2022 (<em>sumber: Lampiran SK Lulusan per September 2022</em>).</p>
+
+<p>Rekapitulasi lulusan Universitas Sultan Ageng Tirtayasa jenjang Diploma, Sarjana, dan Pascasarjana.</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="table table-striped table-sm small" data-quarto-postprocess="true">
@@ -206,29 +213,29 @@ Tahun Kelulusan
 <tr class="odd">
 <th style="text-align: left;" data-quarto-table-cell-role="th">Program Studi</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">Jenjang</th>
-<th style="text-align: right;" data-quarto-table-cell-role="th">s.d.2017</th>
-<th style="text-align: right;" data-quarto-table-cell-role="th">2018</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">s.d.2018</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">2019</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">2020</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">2021</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">2022</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">2023</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">Jumlah</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd" data-grouplength="11">
+<tr class="odd" data-grouplength="12">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Pascasarjana</strong></td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Hukum</td>
 <td style="text-align: left;">S2</td>
-<td style="text-align: right;">238</td>
-<td style="text-align: right;">51</td>
+<td style="text-align: right;">289</td>
 <td style="text-align: right;">36</td>
-<td style="text-align: right;">25</td>
-<td style="text-align: right;">55</td>
-<td style="text-align: right;">13</td>
-<td style="text-align: right;">418</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">517</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Komunikasi</td>
@@ -236,87 +243,87 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">26</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Pertanian</td>
 <td style="text-align: left;">S2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: right;">11</td>
-<td style="text-align: right;">13</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">25</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">48</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Magister Administrasi Publik</td>
 <td style="text-align: left;">S2</td>
-<td style="text-align: right;">40</td>
-<td style="text-align: right;">22</td>
+<td style="text-align: right;">62</td>
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">35</td>
+<td style="text-align: right;">16</td>
 <td style="text-align: right;">17</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">131</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">146</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Magister Akuntansi</td>
 <td style="text-align: left;">S2</td>
-<td style="text-align: right;">77</td>
-<td style="text-align: right;">35</td>
+<td style="text-align: right;">112</td>
 <td style="text-align: right;">39</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">26</td>
 <td style="text-align: right;">22</td>
-<td style="text-align: right;">29</td>
-<td style="text-align: right;">21</td>
-<td style="text-align: right;">223</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">233</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Magister Manajemen</td>
 <td style="text-align: left;">S2</td>
-<td style="text-align: right;">36</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">64</td>
-<td style="text-align: right;">65</td>
+<td style="text-align: right;">124</td>
 <td style="text-align: right;">64</td>
 <td style="text-align: right;">30</td>
-<td style="text-align: right;">347</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">337</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Bahasa Indonesia</td>
 <td style="text-align: left;">S2</td>
-<td style="text-align: right;">396</td>
+<td style="text-align: right;">421</td>
 <td style="text-align: right;">25</td>
-<td style="text-align: right;">25</td>
-<td style="text-align: right;">10</td>
 <td style="text-align: right;">18</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">474</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">489</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Bahasa Inggris</td>
 <td style="text-align: left;">S2</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">73</td>
-<td style="text-align: right;">23</td>
-<td style="text-align: right;">39</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: right;">12</td>
-<td style="text-align: right;">147</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">130</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Matematika</td>
 <td style="text-align: left;">S2</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">43</td>
-<td style="text-align: right;">30</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: right;">16</td>
 <td style="text-align: right;">19</td>
-<td style="text-align: right;">108</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">109</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Kimia</td>
@@ -324,40 +331,51 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">28</td>
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">34</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">52</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknologi Pendidikan</td>
 <td style="text-align: left;">S2</td>
-<td style="text-align: right;">1332</td>
-<td style="text-align: right;">126</td>
+<td style="text-align: right;">1458</td>
 <td style="text-align: right;">58</td>
-<td style="text-align: right;">54</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">51</td>
 <td style="text-align: right;">63</td>
-<td style="text-align: right;">58</td>
-<td style="text-align: right;">1691</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">1716</td>
 </tr>
-<tr class="odd" data-grouplength="1">
+<tr class="odd">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan</td>
+<td style="text-align: left;">S3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even" data-grouplength="1">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Hukum</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Hukum</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">3284</td>
-<td style="text-align: right;">258</td>
+<td style="text-align: right;">3542</td>
 <td style="text-align: right;">269</td>
-<td style="text-align: right;">203</td>
-<td style="text-align: right;">259</td>
-<td style="text-align: right;">106</td>
-<td style="text-align: right;">4379</td>
+<td style="text-align: right;">273</td>
+<td style="text-align: right;">315</td>
+<td style="text-align: right;">276</td>
+<td style="text-align: right;">313</td>
+<td style="text-align: right;">4988</td>
 </tr>
-<tr class="odd" data-grouplength="22">
+<tr class="even" data-grouplength="22">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Keguruan dan Ilmu Pendidikan</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Luar Sekolah</td>
 <td style="text-align: left;">D1</td>
 <td style="text-align: right;">193</td>
@@ -368,7 +386,7 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">193</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">PGTK</td>
 <td style="text-align: left;">D2</td>
 <td style="text-align: right;">633</td>
@@ -379,7 +397,7 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">633</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Luar Sekolah</td>
 <td style="text-align: left;">D3</td>
 <td style="text-align: right;">193</td>
@@ -390,7 +408,7 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">193</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Administrasi Pendidikan</td>
 <td style="text-align: left;">S1</td>
 <td style="text-align: right;">495</td>
@@ -401,208 +419,208 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">495</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Bimbingan dan Konseling</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">19</td>
 <td style="text-align: right;">37</td>
-<td style="text-align: right;">31</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">135</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">196</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Bahasa Indonesia</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">2742</td>
-<td style="text-align: right;">95</td>
+<td style="text-align: right;">2837</td>
 <td style="text-align: right;">66</td>
-<td style="text-align: right;">66</td>
-<td style="text-align: right;">68</td>
-<td style="text-align: right;">16</td>
-<td style="text-align: right;">3053</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">3186</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Bahasa Inggris</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1514</td>
-<td style="text-align: right;">110</td>
+<td style="text-align: right;">1624</td>
 <td style="text-align: right;">105</td>
-<td style="text-align: right;">73</td>
-<td style="text-align: right;">120</td>
-<td style="text-align: right;">26</td>
-<td style="text-align: right;">1948</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">2066</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Biologi</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">967</td>
-<td style="text-align: right;">66</td>
+<td style="text-align: right;">1033</td>
 <td style="text-align: right;">60</td>
-<td style="text-align: right;">37</td>
-<td style="text-align: right;">160</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">1325</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">151</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">1413</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Fisika</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">13</td>
 <td style="text-align: right;">43</td>
-<td style="text-align: right;">18</td>
+<td style="text-align: right;">16</td>
 <td style="text-align: right;">38</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">118</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">196</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Guru Pendidikan Anak Usia Dini</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">280</td>
-<td style="text-align: right;">78</td>
+<td style="text-align: right;">358</td>
 <td style="text-align: right;">67</td>
-<td style="text-align: right;">65</td>
+<td style="text-align: right;">54</td>
 <td style="text-align: right;">92</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">594</td>
-</tr>
-<tr class="even">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Guru Sekolah Dasar</td>
-<td style="text-align: left;">S1</td>
-<td style="text-align: right;">737</td>
-<td style="text-align: right;">112</td>
-<td style="text-align: right;">131</td>
-<td style="text-align: right;">63</td>
-<td style="text-align: right;">73</td>
-<td style="text-align: right;">36</td>
-<td style="text-align: right;">1152</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">648</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan IPA</td>
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Guru Sekolah Dasar</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">28</td>
-<td style="text-align: right;">26</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">27</td>
-<td style="text-align: right;">109</td>
+<td style="text-align: right;">849</td>
+<td style="text-align: right;">131</td>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">1336</td>
 </tr>
 <tr class="even">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan IPA</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">157</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Khusus</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">34</td>
 <td style="text-align: right;">28</td>
-<td style="text-align: right;">41</td>
-<td style="text-align: right;">17</td>
-<td style="text-align: right;">126</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">164</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Kimia</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">30</td>
-<td style="text-align: right;">15</td>
-<td style="text-align: right;">37</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">98</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">195</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Matematika</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1097</td>
-<td style="text-align: right;">44</td>
+<td style="text-align: right;">1141</td>
 <td style="text-align: right;">65</td>
+<td style="text-align: right;">67</td>
 <td style="text-align: right;">66</td>
-<td style="text-align: right;">49</td>
-<td style="text-align: right;">36</td>
-<td style="text-align: right;">1357</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">1492</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Non Formal</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">2084</td>
+<td style="text-align: right;">2117</td>
 <td style="text-align: right;">33</td>
-<td style="text-align: right;">33</td>
-<td style="text-align: right;">52</td>
-<td style="text-align: right;">77</td>
 <td style="text-align: right;">56</td>
-<td style="text-align: right;">2335</td>
-</tr>
-<tr class="even">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Pancasila dan Kewarganegaraan</td>
-<td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">29</td>
-<td style="text-align: right;">48</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">41</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">158</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">2420</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Sejarah</td>
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Pancasila dan Kewarganegaraan</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">13</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: right;">48</td>
-<td style="text-align: right;">19</td>
-<td style="text-align: right;">101</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">228</td>
 </tr>
 <tr class="even">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Sejarah</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">144</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Seni Pertunjukan</td>
 <td style="text-align: left;">S1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">19</td>
-<td style="text-align: right;">17</td>
-<td style="text-align: right;">29</td>
 <td style="text-align: right;">18</td>
-<td style="text-align: right;">83</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Sosiologi</td>
-<td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">36</td>
-<td style="text-align: right;">21</td>
-<td style="text-align: right;">44</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">120</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">138</td>
 </tr>
 <tr class="even">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Vokasional Teknik Elektro</td>
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Sosiologi</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">26</td>
-<td style="text-align: right;">29</td>
-<td style="text-align: right;">14</td>
-<td style="text-align: right;">80</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">203</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Vokasional Teknik Elektro</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">101</td>
+</tr>
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Pendidikan Vokasional Teknik Mesin</td>
 <td style="text-align: left;">S1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">14</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">23</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">51</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">91</td>
 </tr>
-<tr class="even" data-grouplength="8">
+<tr class="odd" data-grouplength="8">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Teknik</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">TKJ</td>
 <td style="text-align: left;">D3</td>
 <td style="text-align: right;">109</td>
@@ -613,7 +631,7 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">109</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">TKM</td>
 <td style="text-align: left;">D3</td>
 <td style="text-align: right;">17</td>
@@ -624,107 +642,118 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">17</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Elektro</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">618</td>
-<td style="text-align: right;">57</td>
+<td style="text-align: right;">675</td>
 <td style="text-align: right;">59</td>
-<td style="text-align: right;">31</td>
-<td style="text-align: right;">62</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">839</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">972</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Industri</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1454</td>
-<td style="text-align: right;">88</td>
+<td style="text-align: right;">1542</td>
 <td style="text-align: right;">93</td>
-<td style="text-align: right;">65</td>
-<td style="text-align: right;">73</td>
-<td style="text-align: right;">58</td>
-<td style="text-align: right;">1831</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">1947</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Kimia</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1095</td>
-<td style="text-align: right;">64</td>
+<td style="text-align: right;">1159</td>
 <td style="text-align: right;">58</td>
-<td style="text-align: right;">93</td>
-<td style="text-align: right;">121</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">1461</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">164</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">1621</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Mesin</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">899</td>
-<td style="text-align: right;">54</td>
+<td style="text-align: right;">953</td>
 <td style="text-align: right;">86</td>
-<td style="text-align: right;">46</td>
-<td style="text-align: right;">83</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">1186</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">1290</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Metalurgi</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">516</td>
-<td style="text-align: right;">90</td>
+<td style="text-align: right;">606</td>
 <td style="text-align: right;">80</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">97</td>
-<td style="text-align: right;">38</td>
-<td style="text-align: right;">851</td>
-</tr>
-<tr class="even">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Sipil</td>
-<td style="text-align: left;">S1</td>
-<td style="text-align: right;">355</td>
-<td style="text-align: right;">59</td>
-<td style="text-align: right;">93</td>
-<td style="text-align: right;">50</td>
-<td style="text-align: right;">58</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">623</td>
-</tr>
-<tr class="odd" data-grouplength="3">
-<td colspan="9" style="background-color: #666; color: #fff"><strong>Pertanian</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Agribisnis</td>
-<td style="text-align: left;">S1</td>
-<td style="text-align: right;">1047</td>
-<td style="text-align: right;">104</td>
-<td style="text-align: right;">83</td>
-<td style="text-align: right;">85</td>
-<td style="text-align: right;">120</td>
-<td style="text-align: right;">77</td>
-<td style="text-align: right;">1516</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">957</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Agroekoteknologi</td>
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknik Sipil</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">568</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">59</td>
-<td style="text-align: right;">67</td>
-<td style="text-align: right;">36</td>
-<td style="text-align: right;">885</td>
+<td style="text-align: right;">414</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">756</td>
+</tr>
+<tr class="even" data-grouplength="4">
+<td colspan="9" style="background-color: #666; color: #fff"><strong>Pertanian</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Agribisnis</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">1151</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">109</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">1680</td>
 </tr>
 <tr class="even">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Agroekoteknologi</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">648</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">98</td>
+<td style="text-align: right;">1041</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Perikanan</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">264</td>
-<td style="text-align: right;">80</td>
+<td style="text-align: right;">344</td>
 <td style="text-align: right;">66</td>
-<td style="text-align: right;">61</td>
-<td style="text-align: right;">60</td>
-<td style="text-align: right;">31</td>
-<td style="text-align: right;">562</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">633</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Teknologi Pangan</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">35</td>
 </tr>
 <tr class="odd" data-grouplength="8">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Ekonomi dan Bisnis</strong></td>
@@ -732,90 +761,90 @@ Tahun Kelulusan
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Akuntansi</td>
 <td style="text-align: left;">D3</td>
-<td style="text-align: right;">293</td>
-<td style="text-align: right;">29</td>
+<td style="text-align: right;">322</td>
 <td style="text-align: right;">41</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">47</td>
-<td style="text-align: right;">22</td>
-<td style="text-align: right;">467</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">550</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Manajemen Pemasaran</td>
 <td style="text-align: left;">D3</td>
-<td style="text-align: right;">198</td>
-<td style="text-align: right;">22</td>
+<td style="text-align: right;">220</td>
 <td style="text-align: right;">28</td>
-<td style="text-align: right;">12</td>
+<td style="text-align: right;">22</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">282</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">322</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Perbankan dan Keuangan</td>
 <td style="text-align: left;">D3</td>
-<td style="text-align: right;">222</td>
-<td style="text-align: right;">37</td>
+<td style="text-align: right;">259</td>
 <td style="text-align: right;">39</td>
-<td style="text-align: right;">23</td>
 <td style="text-align: right;">28</td>
-<td style="text-align: right;">14</td>
-<td style="text-align: right;">363</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">409</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Perpajakan</td>
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Administrasi Pajak</td>
 <td style="text-align: left;">D3</td>
-<td style="text-align: right;">246</td>
-<td style="text-align: right;">41</td>
+<td style="text-align: right;">287</td>
 <td style="text-align: right;">40</td>
-<td style="text-align: right;">16</td>
-<td style="text-align: right;">58</td>
-<td style="text-align: right;">31</td>
-<td style="text-align: right;">432</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">504</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Akuntansi</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1987</td>
-<td style="text-align: right;">107</td>
+<td style="text-align: right;">2094</td>
 <td style="text-align: right;">159</td>
-<td style="text-align: right;">126</td>
-<td style="text-align: right;">114</td>
-<td style="text-align: right;">61</td>
-<td style="text-align: right;">2554</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">2702</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ekonomi Syariah</td>
 <td style="text-align: left;">S1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">25</td>
-<td style="text-align: right;">19</td>
-<td style="text-align: right;">42</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">96</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">138</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Ekonomi Pembangunan</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">298</td>
-<td style="text-align: right;">94</td>
+<td style="text-align: right;">392</td>
 <td style="text-align: right;">86</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">86</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">687</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">788</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Manajemen</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">3717</td>
-<td style="text-align: right;">131</td>
+<td style="text-align: right;">3848</td>
 <td style="text-align: right;">144</td>
-<td style="text-align: right;">143</td>
-<td style="text-align: right;">79</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">4234</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">141</td>
+<td style="text-align: right;">4464</td>
 </tr>
 <tr class="even" data-grouplength="3">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Ilmu Sosial dan Ilmu Politik</strong></td>
@@ -823,49 +852,49 @@ Tahun Kelulusan
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Administrasi Publik</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1054</td>
-<td style="text-align: right;">106</td>
+<td style="text-align: right;">1160</td>
 <td style="text-align: right;">97</td>
-<td style="text-align: right;">90</td>
-<td style="text-align: right;">90</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">1467</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">1618</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Komunikasi</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">1002</td>
-<td style="text-align: right;">108</td>
+<td style="text-align: right;">1110</td>
 <td style="text-align: right;">86</td>
-<td style="text-align: right;">66</td>
-<td style="text-align: right;">105</td>
-<td style="text-align: right;">60</td>
-<td style="text-align: right;">1427</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">1590</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Pemerintahan</td>
 <td style="text-align: left;">S1</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">14</td>
 <td style="text-align: right;">29</td>
-<td style="text-align: right;">53</td>
-<td style="text-align: right;">76</td>
-<td style="text-align: right;">25</td>
-<td style="text-align: right;">197</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">291</td>
 </tr>
-<tr class="even" data-grouplength="4">
+<tr class="even" data-grouplength="5">
 <td colspan="9" style="background-color: #666; color: #fff"><strong>Kedokteran</strong></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Keperawatan</td>
 <td style="text-align: left;">D3</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">121</td>
 <td style="text-align: right;">119</td>
 <td style="text-align: right;">117</td>
 <td style="text-align: right;">111</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">503</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">638</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Gizi</td>
@@ -875,8 +904,8 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">21</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Ilmu Keolahragaan</td>
@@ -886,8 +915,8 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
 </tr>
 <tr class="even">
 <td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Kedokteran</td>
@@ -897,19 +926,30 @@ Tahun Kelulusan
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">40</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left; padding-left: 2em;" data-indentlevel="1">Keperawatan</td>
+<td style="text-align: left;">S1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">Jumlah</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: right;">32297</td>
-<td style="text-align: right;">2719</td>
+<td style="text-align: right;">35016</td>
 <td style="text-align: right;">3043</td>
-<td style="text-align: right;">2434</td>
-<td style="text-align: right;">3220</td>
-<td style="text-align: right;">1312</td>
-<td style="text-align: right;">45025</td>
+<td style="text-align: right;">2647</td>
+<td style="text-align: right;">3318</td>
+<td style="text-align: right;">2585</td>
+<td style="text-align: right;">3221</td>
+<td style="text-align: right;">49830</td>
 </tr>
 </tbody>
 </table>
@@ -919,7 +959,7 @@ Tahun Kelulusan
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-warning" onclick="fetch('data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,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').then(res => res.blob()).then(blob => {
+<button class="btn btn-warning" onclick="fetch('data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,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').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.style.display = 'none'; // Hide the link
@@ -1016,10 +1056,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1029,8 +1068,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1043,6 +1091,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1086,6 +1253,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1111,6 +1279,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1172,17 +1366,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./rasio_dosen.html" class="pagination-link">
+      <a href="./rasio_dosen.html" class="pagination-link  aria-label=" &lt;span="" dosen="" dan="" mahasiswa&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Rasio Dosen dan Mahasiswa</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./tendik.html" class="pagination-link">
+      <a href="./tendik.html" class="pagination-link" aria-label="<span class='chapter-number'>6</span>&nbsp; <span class='chapter-title'>Tenaga Kependidikan</span>">
         <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Tenaga Kependidikan</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
